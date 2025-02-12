@@ -1,36 +1,78 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Todo List with Drag & Drop
 
-## Getting Started
+## 🚀 Project Overview
 
-First, run the development server:
+This is a **Todo List application** built just to practice **TypeScript** in a React environment. The app allows users to add, manage, and reorder tasks using a **drag-and-drop** feature. Tasks are stored in **localStorage** for persistence.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 🛠️ Technologies Used
+
+- **Next.js** - React framework for server-side rendering and static site generation.
+- **TypeScript** - Strongly typed JavaScript.
+- **Tailwind CSS** - Utility-first CSS framework for styling.
+- **@hello-pangea/dnd** - Fork of react-beautiful-dnd for drag-and-drop functionality.
+- **localStorage** - Browser storage to persist tasks.
+
+## ✨ Features
+
+- ✅ Add new tasks
+- 📝 Edit or remove tasks
+- 📦 Drag and drop tasks to reorder them
+- 🔄 Tasks persist using localStorage
+- 🎨 Responsive design with Tailwind CSS
+
+## 📂 Project Structure
+
+```
+📦 my-todo-app
+├── 📁 app
+│   ├── 📄 page.tsx  # Main component with todo logic
+│   ├── 📄 globals.css  # Tailwind styles
+├── 📁 components
+│   ├── 📄 Tasks.tsx  # List of tasks
+│   ├── 📄 DoneTasks.tsx  # List of completed tasks
+├── 📄 package.json
+├── 📄 README.md
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Getting Started
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 1️⃣ Clone the repository
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+git clone https://github.com/yourusername/Ultimate-Todo-List.git
+cd Ultimate-Todo-List
+```
 
-## Learn More
+### 2️⃣ Install dependencies
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+npm install  # or yarn install
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 3️⃣ Run the development server
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+npm run dev  # or yarn dev
+```
 
-## Deploy on Vercel
+Then, open [http://localhost:3000](http://localhost:3000) in your browser.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🎯 How to Use
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Type a new task in the input field and press **Enter** to add it.
+2. Drag and drop tasks to change their order.
+3. Tasks are automatically saved in **localStorage**.
+
+## 🛠️ Future Improvements
+
+- ✅ Improve UI/UX with animations.
+- 🗑️ Add a "clear completed tasks" button.
+- ☁️ Sync tasks with an API for cross-device access.
+
+## 📜 License
+
+This project is **open-source** and available under the **MIT License**.
+
+---
+
+Feel free to contribute, open issues, or suggest improvements! 🚀
