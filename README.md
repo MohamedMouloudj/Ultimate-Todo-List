@@ -1,8 +1,8 @@
 # Todo List with Drag & Drop
 
-## 🚀 Project Overview
-
 This is a **Todo List application** built just to practice **TypeScript** in a React environment. The app allows users to add, manage, and reorder tasks using a **drag-and-drop** feature. Tasks are stored in **localStorage** for persistence.
+
+[live-demo](https://ultimate-todo-list-topaz.vercel.app/)
 
 ## 🛠️ Technologies Used
 
